@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scrip.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!--Swiper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/494d54b725.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+            <!--contact information-->
+            <div class="info">
+                <!--phone-->
+                <div class="phone">
+                    <div><img src="icons/phone.svg" alt="phone"></div>
+                    <div><span>+373 68 424 869</span></div>
+                    <div><a href="tel:+37368424869">Click to Call</a></div>
+                </div>
+                <!--mailbox-->
+                    <div class="mail">
+                        <div class="mail-box"><a href="mailto: exemple@gmail.com"><img src="icons/mailbox.svg" alt="mailbox"></a></div>
+                        <div><span class="gmail">exemple@gmail.com</span></div>
+                    </div>
+            </div>
+            <hr>
+            <!---search bar-->
+            <div class="search-bar">
+                <div class="logo"><img src="img/Tiras.png" alt="Logo"></div>
+                <!--search form-->
+                <div class="serch-form">
+                    <form action="#" class="search-form_bar">
+                        <input type="text" placeholder="SEARCH" name="s">
+                        <button type="submit"><img src="icons/search.svg"></button>
+                    </form>
+                </div>
+                <div class="personalize">
+                    <a href="#"><img src="icons/headphones.svg"></a>
+                    <a href="#"><img src="icons/favorite.svg"></a>
+                    <a href="#"><img src="icons/shoping.svg"></a>
+                    <a href="#"><img src="icons/user.svg"></a>
+                </div>
+                <div class="sign-in">sign in</div>
+            </div>
+            <!--web navigation-->
+            <div class="container">
+                <nav>
+                    <ul class="list">
+                        <li><a href="#">women's cars</a></li>
+                        <li><a href="#">men's cars</a></li>
+                        <li><a href="#">women's bags</a></li>
+                        <li><a href="#">children's cars</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">payment and delivery</a></li>
+                        <li><a href="#">new items</a></li>
+                    </ul>
+                </nav>
+                <!--sale box-->
+                <div class="sale">
+                    <div><img src="icons/gift.svg"></div>
+                    <div><span>sale</span></div>
+                </div>
+                <!--socials-->
+                <div class="socials">
+                    <a href="#"><img src="icons/facebook.svg" alt="faceboock"></a>
+                    <a href="#"><img src="icons/instagram.svg" alt="instagram"></a>
+                </div>
+            </div>
+        
+        <!--Slider container-->
+        <div class="swiper-container">
+            <!--Slider wrapper-->
+            <div class="swiper-wrapper">
+                <!--Slides-->
+                <div class="swiper-slide">
+                    <!--circles-->
+                    <div class="circle one"></div>
+                    <div class="circle two"></div>
+                    <div class="circle three"></div>
+                    <!--sales image-->
+                    <img src="img/whitwCamaro.png" alt="">
+                    <!--sales information-->
+                    <div class="sales-information">
+                        <p class="percent">up to 60%</p>
+                        <p class="special">weekend <br> special sale</p>
+                        <div><a href="#" class="btn">shop now</a></div>
+                    </div>
+            </div>
+            <!--swiper changer-->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </header>
+        <!--product boxes-->
+        <div class="box-container">
+            <div class="box one">
+                <p>Latest <br> Products</p>
+                <a href="#">View more</a>
+            </div>
+            <div class="box">
+                <!--images box one-->
+                <div class="image">
+                    <img src="img/produtcs/BlackCamaro.webp" class="camaro">
+                    <a href="#"><img src="icons/eye.svg"></a>
+                    <a href="#"><img src="icons/favorite.svg"></a>
+                </div>
+                <!--Descriptions-->
+                <div class="name">
+                    <p>Chevrolet camaro</p>
+                    <p>Chevrolet camaro <br> Limited edition</p>
+                </div>
+                <!--Rating form-->
+                <form action="#">
+                    <div class="form_item">
+                        <div class="simple-rating">
+                            <div class="simple-rating__items">
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="5" id="simple-rating__5">
+                                <label for="simple-rating__5" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="4" id="simple-rating__4">
+                                <label for="simple-rating__4" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="3" id="simple-rating__3">
+                                <label for="simple-rating__3" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="2" id="simple-rating__2">
+                                <label for="simple-rating__2" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="1" id="simple-rating__1">
+                                <label for="simple-rating__1" class="simple-rating__label"></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!--price-->
+                <div class="price">
+                    <div class="price__money">45000 $</div>
+                    <div class="price__cart">
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <span>Add to <br> cart</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                  <!--images box two-->
+                  <div class="image">
+                    <img src="img/produtcs/RedCamaro.webp" class="camaro">
+                    <a href="#"><img src="icons/eye.svg"></a>
+                    <a href="#"><img src="icons/favorite.svg"></a>
+                </div>
+                <!--Descriptions-->
+                <div class="name">
+                    <p>Chevrolet camaro</p>
+                    <p>Chevrolet camaro <br> Limited edition</p>
+                </div>
+                <!--Rating form-->
+                <form action="#">
+                    <div class="form_item">
+                        <div class="simple-rating">
+                            <div class="simple-rating__items">
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="5" id="simple-rating__5">
+                                <label for="simple-rating__5" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="4" id="simple-rating__4">
+                                <label for="simple-rating__4" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="3" id="simple-rating__3">
+                                <label for="simple-rating__3" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="2" id="simple-rating__2">
+                                <label for="simple-rating__2" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="1" id="simple-rating__1">
+                                <label for="simple-rating__1" class="simple-rating__label"></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!--price-->
+                <div class="price">
+                    <div class="price__money">45000 $</div>
+                    <div class="price__cart">
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <span>Add to <br> cart</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                  <!--images box three-->
+                  <div class="image">
+                    <img src="img/produtcs/BlueCamaro.webp" class="camaro">
+                    <a href="#"><img src="icons/eye.svg"></a>
+                    <a href="#"><img src="icons/favorite.svg"></a>
+                </div>
+                <!--Descriptions-->
+                <div class="name">
+                    <p>Chevrolet camaro</p>
+                    <p>Chevrolet camaro <br> Limited edition</p>
+                </div>
+                <!--Rating form-->
+                <form action="#">
+                    <div class="form_item">
+                        <div class="simple-rating">
+                            <div class="simple-rating__items">
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="5" id="simple-rating__5">
+                                <label for="simple-rating__5" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="4" id="simple-rating__4">
+                                <label for="simple-rating__4" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="3" id="simple-rating__3">
+                                <label for="simple-rating__3" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="2" id="simple-rating__2">
+                                <label for="simple-rating__2" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="1" id="simple-rating__1">
+                                <label for="simple-rating__1" class="simple-rating__label"></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!--price-->
+                <div class="price">
+                    <div class="price__money">45000 $</div>
+                    <div class="price__cart">
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <span>Add to <br> cart</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                  <!--images box four-->
+                  <div class="image">
+                    <img src="img/produtcs/GreyCamaro.webp" class="camaro">
+                    <a href="#"><img src="icons/eye.svg"></a>
+                    <a href="#"><img src="icons/favorite.svg"></a>
+                </div>
+                <!--Descriptions-->
+                <div class="name">
+                    <p>Chevrolet camaro</p>
+                    <p>Chevrolet camaro <br> Limited edition</p>
+                </div>
+                <!--Rating form-->
+                <form action="#">
+                    <div class="form_item">
+                        <div class="simple-rating">
+                            <div class="simple-rating__items">
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="5" id="simple-rating__5">
+                                <label for="simple-rating__5" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="4" id="simple-rating__4">
+                                <label for="simple-rating__4" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="3" id="simple-rating__3">
+                                <label for="simple-rating__3" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="2" id="simple-rating__2">
+                                <label for="simple-rating__2" class="simple-rating__label"></label>
+                                <input type="radio" class="simple-rating__item" name="simple-rating" value="1" id="simple-rating__1">
+                                <label for="simple-rating__1" class="simple-rating__label"></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!--price-->
+                <div class="price">
+                    <div class="price__money">45000 $</div>
+                    <div class="price__cart">
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <span>Add to <br> cart</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--main content-->
+    <main>
+        <div class="main__box1">
+            <div class="sales">30% extra off</div>
+                <div class="desription">
+                    <p class="sales-description__season">summer sale</p>
+                    <p class="sales-description__about">Discover your style</p>
+                </div>
+            <div><a href="#" class="btn second">shop now</a></div>
+            <img src="img/whitwCamaro.png">
+        </div>
+        <div class="main-box2">
+            <p class="main-box2__description">Casual <br>car</p>
+            <img src="img/OrangeCar.png" alt="" class="main-box2__image">
+            <div class="main-box2__sale">
+                <div class="main-box2__sale_percent">30% OFF</div>
+            </div>
+        </div>
+        <div class="main-box3">
+            <img src="img/FerrariCar.png"  class="main-box3__image">
+            <p class="main-box3__description">casual <br>car</p>
+            <p class="main-box3__something">Lorem ipsum,<br> dolor sit amet consectetur <br> adipisicing</p>
+        </div>
+        <!--Social icons-->
+        
+    </main>
+    <div class="footer-menu">
+        <div class="footer-menu__item">
+            <a href="#"><i class="fa-solid fa-truck"></i></a>
+            <span>Free Shiping</span>
+            <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing.</p>
+        </div>
+        <div class="footer-menu__item">
+            <a href="#"> <i class="fa-solid fa-piggy-bank"></i></a>
+            <span>Money Back Guarantee</span>
+            <p>Lorem ipsum, dolor sit amet,<br> consectetur adipisicing.</p>
+        </div>
+        <div class="footer-menu__item">
+            <a href="#"><i class="fa-solid fa-question"></i></a>
+            <span>Online Supportt</span>
+            <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing.</p>
+        </div>
+        <div class="footer-menu__item">
+           <a href="#"> <i class="fa-solid fa-hand-holding-dollar"></i></a>
+            <span>100% Secure</span>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing.</p>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="footer-info">
+            <div class="footer-info__items first">
+                <span>Catalog</span>
+                <div><a href="#">Lorem, ipsum.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+            </div>
+            <div class="footer-info__items second">
+                <span>For customers</span>
+                <div><a href="#">Lorem, ipsum.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+            </div>
+            <div class="footer-info__items three">
+                <span>About company</span>
+                <div><a href="#">Lorem, ipsum dolor.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+                <div><a href="#">Lorem, ipsum.</a></div>
+            </div>
+            <div class="footer-info__items four">
+               <span>Contacts</span>
+                <div class="footer-info__items___phone">
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <p>+373 68 424 869</p>
+                </div>
+                <div class="footer-info__items___mail">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>exemple@gmail.com</p>
+                </div>
+                <p class="footer-info__items___social-network">We are in social networks</p>
+                <div class="footer-info__items__social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <!--Web Messenger-->
+        <a href="#" class="mes-icon">
+            <i class="fa-regular fa-comments"></i>
+        </a>
+    </footer>
+    <!--End-->
+    <div class="end">
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i>2022 All Right Reserved</p>
+            <p class="hearth">Width <i class="fa-solid fa-heart"></i> Ti-Rex</p>
+        </div>
+    </div>
+</body>
+</html>
